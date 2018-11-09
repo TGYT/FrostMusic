@@ -353,4 +353,4 @@ client.user.setGame(`1play | Frost Music`,"http://twitch.tv/Death Shop")
 client.user.setStatus("online")
 });
 
-client.login('NTA5MzM4MTkzNTY5NjQ0NTQ2.DsMWLQ.j4u_aZ3lE6DIVIWv5xMCoTcbrjc');
+client.login(process.env.BOT_TOKEN);// تبي تهكر البوت اقول انقلع بس لووول
