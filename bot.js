@@ -11,7 +11,7 @@ var server = "510729462116253708"; // ايدي السررفر
 var channel = "510730121062252544";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , TopsCreditsFarm , **')
-    },305);
+    },100);
 })
 
 client.on('message', message => {
